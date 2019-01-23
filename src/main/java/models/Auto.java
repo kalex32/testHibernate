@@ -10,7 +10,7 @@ public class Auto {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id_autos;
 
-    @Column (name = "model_autos")
+    @Column(name = "model_autos")
     private String model_autos;
 
     //можно не указывать Column name, если оно совпадает с названием столбца в таблице
